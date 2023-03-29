@@ -7,7 +7,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Prerequisites</h2>
 
-- [Creating a Subscription and Resource Group in Azure](https://github.com/mikeguardiola/create-azure-sub-and-resource)
+- [Creating Virtual Machines in Azure and Observing Network Topology](https://github.com/mikeguardiola/azure-vm-and-network)
 
 <h2>Environments and Technologies Used</h2>
 
