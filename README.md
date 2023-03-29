@@ -48,37 +48,37 @@ Within the Azure Portal, navigate to the search bar at the top. Within the searc
 
 <p>
   Step 2:
-<img src="https://i.imgur.com/pr8xnDL.png"/>
+<img src="https://i.imgur.com/XnmiN9P.png"/>
 </p>
 <p>
-After you click "Virtual machines", you will be taken to this screen. Once there, click on "Create" and select "Azure virtual machine".
+After you click "Virtual machines", you will be taken to this screen. Once there, click on "VM1".
 </p>
 <br />
 
 <p>
   Step 3:
-<img src="https://i.imgur.com/OEs2drO.png"/>
+<img src="https://i.imgur.com/2cUyVa0.png"/>
 </p>
 <p>
-Once you are at this screen, you can begin configuring your virtual machine. Under "Project Details", make sure that you have the correct subscription and resource group selected from the drop down menus. Since you are building off the previous tutorial, you can go ahead and select "Azure subsciption 1" and "resource-group-lab-01". Under "Instance Details", you will need to give your virtual machine a name. I went with "VM1". Next, select the correct region that most closely matches where you live. Next, for "Image" you will want to select "Windows 10 Pro, version 21H2 - x64 Gen2 (free services eligible)".
+You are going to connect to your Windows VM via Remote Desktop Connection, so you will need to do a few things to set that up. First, you will need to copy your Windows VM Public IP Address.
 </p>
 <br />
 
 <p>
   Step 4:
-<img src="https://i.imgur.com/ZUBCPI5.png"/>
+<img src="https://i.imgur.com/xTN92Dm.png"/>
 </p>
 <p>
-After that, you will need to scroll down until you see this portion of the screen. For the virtual machine size, select "Standard_E2s_v3-2 vcpus, 16 GiB memory" from the drop down menu. Under "Administrator account", create a username and password. Next, check the box under "Licensing". After that, go ahead and click on the "Next:Disks >" button.
+After that, you will need to press the Windows Key on your keyboard to open the Start Menu or you can click on the Windows icon to open the Start Menu.
 </p>
 <br />
 
 <p>
   Step 5:
-<img src="https://i.imgur.com/3umaVjc.png"/>
+<img src="https://i.imgur.com/chuWbfh.png"/>
 </p>
 <p>
-You do not need to change any of these settings, so just click on the "Next: Networking >" button.
+Once you have the Start Menu open, type "Remote Desktop Connection" and select it.
 </p>
 <br />
 
