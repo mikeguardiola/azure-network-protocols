@@ -110,37 +110,37 @@ Go ahead and enter your Windows VM log in credentials. Click on the "OK" button.
 
 <p>
   Step 9:
-<img src="https://i.imgur.com/kEXy51l.png"/>
+<img src="https://i.imgur.com/mLcYDTJ.png"/>
 </p>
 <p>
-You will now repeat the process from earlier for creating a virtual machine. Under "Project Details", make sure that you have the correct subscription and resource group selected from the drop down menus. Since you are building off the previous tutorial, you can go ahead and select "Azure subsciption 1" and "resource-group-lab-01". Under "Instance Details", you will need to give your virtual machine a name. I went with "VM2". Next, select the correct region that most closely matches where you live. Next, for "Image" you will want to select "Ubuntu Server 20.04 - x64 Gen2 (free services eligible)".
+You will get this warning notice saying that it is unsafe to proceed. However, you can go ahead and click "Yes". The explanation for why you can do this is beyond the scope of this tutorial, but just know that it is in fact okay to proceed in this example.
 </p>
 <br />
 
 <p>
   Step 10:
-<img src="https://i.imgur.com/rV9W2PV.png"/>
+<img src="https://i.imgur.com/sMHinQJ.png"/>
 </p>
 <p>
-After that, you will need to scroll down until you see this portion of the screen. For the virtual machine size, select "Standard_E2s_v3-2 vcpus, 16 GiB memory" from the drop down menu. Next, you will need to select "Password" instead of "SSH public key". Then go ahead and create a username and password. After that, go ahead and click on the "Next:Disks >" button.
+The Remote Desktop app will now establish a connection to your Windows VM, and you be taken to this screen. Once here, go ahead and set all the privacy settings to "No". Then click on "Accept".
 </p>
 <br />
 
 <p>
   Step 11:
-<img src="https://i.imgur.com/ZygXPDw.png"/>
+<img src="https://i.imgur.com/j4VLjFq.png"/>
 </p>
 <p>
-You do not need to change any of these settings, so just click on the "Next: Networking >" button.
+Now you are officially remotely connected to the Windows VM that you previously created in Azure in the previous tutorial. You will see a Network notice pop up on the right side of your screen, go ahead and click "Yes".
 </p>
 <br />
 
 <p>
   Step 12:
-<img src="https://i.imgur.com/4Ya5yOd.png"/>
+<img src="https://i.imgur.com/MhH4vxp.png"/>
 </p>
 <p>
-Once you are at this screen, you do not need to change any settings since Azure already pre-selected the correct settings. Under "Network interface", double check to make sure that you have the virtual network that you created earlier selected, which is "VM1-vnet". This will ensure that both of your virtual machines are able to communicate with each other. After that, go ahead and click on the "Review + create" button.
+Next, you will need to open up the Microsoft Edge Browser and navigate to Google.com. Once there, type "download wireshark" into the search bar and hit enter.
 </p>
 <br />
 
