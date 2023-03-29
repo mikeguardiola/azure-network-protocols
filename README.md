@@ -137,7 +137,7 @@ Now you are officially remotely connected to the Windows VM that you previously 
 
 <p>
   Step 12:
-<img src="https://i.imgur.com/MhH4vxp.png"/>
+<img src="https://i.imgur.com/Zobvi9F.png"/>
 </p>
 <p>
 Next, you will need to open up the Microsoft Edge Browser and navigate to Google.com. Once there, type "download wireshark" into the search bar and hit enter.
@@ -146,10 +146,10 @@ Next, you will need to open up the Microsoft Edge Browser and navigate to Google
 
 <p>
   Step 13:
-<img src="https://i.imgur.com/J3uBAq0.png"/>
+<img src="https://i.imgur.com/7WmTanN.png"/>
 </p>
 <p>
-Azure will now go through a quick validation process. Once the validation process is complete, click on the "Create" button.
+You can click on the first result "Download Wireshark".
 </p>
 <br />
 
