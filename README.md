@@ -84,28 +84,28 @@ Once you have the Start Menu open, type "Remote Desktop Connection" and select i
 
 <p>
   Step 6:
-<img src="https://i.imgur.com/jMFjgEc.png"/>
+<img src="https://i.imgur.com/MQFhF9A.png"/>
 </p>
 <p>
-Once you are at this screen, you do not need to change any settings. However, you will want to make some observations. Under " Network interface", you can see how Azure automatically creates a Virtual Network or Vnet whenever you are setting up a virtual machine. This Vnet is what will connect multiple virtual machines and allow you to facilitate data communication. When ready, go ahead and click on the "Review + create" button.
+After the Remote Desktop Connection application opens, paste your Windows VM Public IP Address from earlier into the "Computer" section. Next, click on the "Connect" button.
 </p>
 <br />
 
 <p>
   Step 7:
-<img src="https://i.imgur.com/jKQU4KZ.png"/>
+<img src="https://i.imgur.com/oe2cBpD.png"/>
 </p>
 <p>
-Azure will now go through a quick validation process. Once the validation process is complete, click on the "Create" button.
+The Remote Desktop Connection app will now ask for your log in credentials to your Windows VM, which you created while configuring your VM in Azure. (Note: the Remote Desktop app may default to asking for your personal Windows account log in credentials. If this happens, just select the "More choices" option and the select "Use a different account")
 </p>
 <br />
 
 <p>
   Step 8:
-<img src="https://i.imgur.com/sTtHUUU.png"/>
+<img src="https://i.imgur.com/XGUddc6.png"/>
 </p>
 <p>
-Azure will go through its deployment process to create all of the resources connected to your virtual machine. Once deployment is complete, you will be able to see all the various resources that were created under "Deployment details". When ready, click on the "Create another VM" button.
+Go ahead and enter your Windows VM log in credentials. Click on the "OK" button.
 </p>
 
 <p>
