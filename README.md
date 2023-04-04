@@ -194,7 +194,7 @@ After Wireshark has installed, you can minimize or close the web browser. Next, 
 <img src="https://i.imgur.com/1ngmXv3.png"/>
 </p>
 <p>
-Once Wireshark opens, click once on "Ethernet", then click on the small blue fin under File. This will start the packet capturing process and you will be able to see the live network traffic on our virtual machine.
+Once Wireshark opens, click once on "Ethernet", then click on the small blue fin under File. This will start the packet capturing process and you will be able to see the live network traffic on your virtual machine.
 </p>
 <br />
 
@@ -203,7 +203,97 @@ Once Wireshark opens, click once on "Ethernet", then click on the small blue fin
 <img src="https://i.imgur.com/miQ0PRl.jpg"/>
 </p>
 <p>
-You can now see the live traffic on our virtual machine's network.
+You can now see the live traffic on your virtual machine's network.
+</p>
+<br />
+
+<p>
+  Step 20:
+<img src="https://i.imgur.com/WmehizG.png"/>
+</p>
+<p>
+Next, go to the search bar within Wireshark and type "icmp" and hit enter on your keyboard. ICMP stands for Internet Control Messaging Protocol.
+</p>
+<br />
+
+<p>
+  Step 21:
+<img src="https://i.imgur.com/h1yB7TY.png"/>
+</p>
+<p>
+Next, minimize your Remote Desktop Connection window and navigate back to the Azure Portal on your main desktop window. Navigate to VM2 and find VM2's Private IP Address.
+</p>
+<br />
+
+<p>
+  Step 22:
+<img src="https://i.imgur.com/znwJJ9z.png"/>
+</p>
+<p>
+Re-open your Remote Desktop Connection window. Click on the Start Menu button and type "Powershell" and select it.
+</p>
+<br />
+
+<p>
+  Step 23:
+<img src="https://i.imgur.com/gIlK40O.png"/>
+</p>
+<p>
+Once Powershell is open, you are going to ping your Linux Virtual Machine, VM2. You will need the Private IP Address from earlier. In Powershell, type "ping 10.0.0.5" and hit enter. You can see now that Wireshark is picking up the ICMP traffic between your virtual machines.
+</p>
+<br />
+
+<p>
+  Step 24:
+<img src="https://i.imgur.com/qEXVB0Y.png"/>
+</p>
+<p>
+Next, you are going to try pinging a public website and then observe the traffic in Wireshark. In Powershell, type "www.google.com -4" and hit enter. You can now see that Wireshark has captured the ICMP traffic between your Windows Virtual Machine (VM1) and Google.
+</p>
+<br />
+
+<p>
+  Step 25:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+Next, we are going to initiate a perpetual ping from VM1 to VM2.
+</p>
+<br />
+
+<p>
+  Step 16:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+</p>
+<br />
+
+<p>
+  Step 16:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+</p>
+<br />
+
+<p>
+  Step 16:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+</p>
+<br />
+
+<p>
+  Step 16:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
 </p>
 <br />
 
