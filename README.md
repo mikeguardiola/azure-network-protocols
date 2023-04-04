@@ -155,28 +155,109 @@ You can click on the first result "Download Wireshark".
 
 <p>
   Step 14:
-<img src="https://i.imgur.com/7hI695A.png"/>
+<img src="https://i.imgur.com/stEwFnU.png"/>
 </p>
 <p>
-Azure will go through its deployment process to create all of the resources connected to your virtual machine. Once deployment is complete, you will be able to see all the various resources that were created under "Deployment details".
+Click on the "Windows Installer (64-bit)" option.
 </p>
 <br />
 
 <p>
   Step 15:
-<img src="https://i.imgur.com/luHUUPH.png"/>
+<img src="https://i.imgur.com/5LSjQbp.png"/>
 </p>
 <p>
-Next, you will want to navigate back to the Azure Portal home screen. Once there, click on the search bar and type "Network Watcher" and select it.
+Go ahead and open the file from your Downloads. Once opened, click "Next" to begin the installation process.
 </p>
 <br />
 
 <p>
   Step 16:
-<img src="https://i.imgur.com/Ddxkcil.png"/>
+<img src="https://i.imgur.com/gVh2m25.png"/>
 </p>
 <p>
-Once you are at this screen, go ahead and click on "Topology".
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+</p>
+<br />
+
+<p>
+  Step 17:
+<img src="https://i.imgur.com/y3yJqb1.jpg"/>
+</p>
+<p>
+After Wireshark has installed, you can minimize or close the web browser. Next, click on the Start Menu button. Type "Wireshark" and select it.
+</p>
+<br />
+
+<p>
+  Step 18:
+<img src="https://i.imgur.com/1ngmXv3.png"/>
+</p>
+<p>
+Once Wireshark opens, click once on "Ethernet", then click on the small blue fin under File. This will start the packet capturing process and you will be able to see the live network traffic on our virtual machine.
+</p>
+<br />
+
+<p>
+  Step 19:
+<img src="https://i.imgur.com/miQ0PRl.jpg"/>
+</p>
+<p>
+You can now see the live traffic on our virtual machine's network.
+</p>
+<br />
+
+<p>
+  Step 16:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+</p>
+<br />
+
+<p>
+  Step 16:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+</p>
+<br />
+
+<p>
+  Step 16:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+</p>
+<br />
+
+<p>
+  Step 16:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+</p>
+<br />
+
+<p>
+  Step 16:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+</p>
+<br />
+
+<p>
+  Step 16:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
 </p>
 <br />
 
