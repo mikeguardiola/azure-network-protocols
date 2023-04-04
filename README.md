@@ -257,7 +257,7 @@ Next, you are going to try pinging a public website and then observe the traffic
 <img src="https://i.imgur.com/gVh2m25.png"/>
 </p>
 <p>
-Next, we are going to initiate a perpetual ping from VM1 to VM2.
+Next, we are going to initiate a perpetual ping from VM1 to VM2. 12:47 timestamp
 </p>
 <br />
 
