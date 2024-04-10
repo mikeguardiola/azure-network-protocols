@@ -284,7 +284,7 @@ Once you are in the VM2-nsg portal, click on "Inbound security rules".
 <img src="https://imgur.com/sYG3qp4.png"/>
 </p>
 <p>
-Once you are at this screen, click on "+ Add". Fill out the sections accordingly. When finished, click on the blue "Add" button at the bottom of the screen. Doing this creates a security rule within Azure that will effectively stop ICMP traffic from VM1 to VM2.
+Once you are at this screen, click on "+ Add". Fill out the sections accordingly. When finished, click on the blue button at the bottom of the screen. Doing this creates a security rule within Azure that will effectively stop ICMP traffic from VM1 to VM2.
 </p>
 <br />
 
@@ -293,7 +293,7 @@ Once you are at this screen, click on "+ Add". Fill out the sections accordingly
 <img src="https://imgur.com/hvAhsdN.png"/>
 </p>
 <p>
-Head back over to your VM1 Remote Desktop. You will now see in Powershell that the ping request has timed out as a result of blocing ICMP traffic. VM2's firewall is blocking the traffic.
+Head back over to your VM1 Remote Desktop. You will now see in Powershell that the ping request has timed out as a result of blocking ICMP traffic. VM2's firewall is blocking the traffic.
 </p>
 <br />
 
@@ -302,7 +302,7 @@ Head back over to your VM1 Remote Desktop. You will now see in Powershell that t
 <img src="https://imgur.com/trgjBhy.png"/>
 </p>
 <p>
-Go back to VM2-nsg Inbound Security Rules in Azure. Click on "DENY_ICMP_PING_FROM_ANYWHERE" to edit the rule. Under "Action", change from Deny to Allow. Click on the blue "Save" button at the bottom of the screen.
+Go back to VM2-nsg Inbound Security Rules in Azure. Click on "DENY_ICMP_PING_FROM_ANYWHERE" to edit the rule. Under "Action", change from "Deny" to "Allow". Click on the blue "Save" button at the bottom of the screen.
 </p>
 <br />
 
@@ -320,7 +320,7 @@ Go back to your VM1 Remote Desktop. You can observe that ICMP traffic has resume
 <img src="https://imgur.com/SXCzS5h.png"/>
 </p>
 <p>
-Now we are going to explore SSH Traffic on the network. Within Wireshark, type "ssh" into the search bar and hit enter. Also, click on the green fin to restart the capturing process. 
+Now we are going to explore SSH (Secure Shell) Traffic on the network. Within Wireshark, type "ssh" into the search bar and hit enter. Also, click on the green fin to restart the capturing process. 
 </p>
 <br />
 
@@ -329,7 +329,7 @@ Now we are going to explore SSH Traffic on the network. Within Wireshark, type "
 <img src="https://imgur.com/kfm8Xnt.png"/>
 </p>
 <p>
-In Powershell, we are going to establish a secure connection from VM1 to VM2. Type "ssh labuser@10.0.0.5" and hit enter. You will see that the connection is not able to be established at first. Powershell will prompt you with a yes/no question - type yes and press enter. Powershell should then prompt you to enter in the password for VM2. If it does not automatically prompt you, then go ahead and retype "ssh labuser@10.0.0.5" and hit enter. Now you should be prompted to enter the password. Note: when you are typing in the password, it won't actually show the text to indicate you are typing. That's normal. Just go ahead and type the full password anyway and hit enter. You are now securely connected to VM2 remotely.
+In Powershell, we are going to establish a secure connection from VM1 to VM2. Type "ssh labuser@10.0.0.5" and hit enter. You will see that the connection is not able to be established at first. Powershell will prompt you with a yes/no question - type yes and press enter. Powershell should then prompt you to enter in the password for VM2. If it does not automatically prompt you, then go ahead and retype "ssh labuser@10.0.0.5" and hit enter. Now you should be prompted to enter the password. (Note: when you are typing in the password, it won't actually show the text to indicate you are typing. That's normal. Just go ahead and type the full password anyway and hit enter.) You are now securely connected to VM2 remotely.
 </p>
 <br />
 
