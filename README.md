@@ -347,43 +347,25 @@ To end the remote connection, type "exit" and hit enter. This will take you back
 <img src="https://imgur.com/GB3oQTD.png"/>
 </p>
 <p>
-Next, we are going to observe DHCP traffic. Remember that DHCP is used to automatically assign an IP address. You are going to force the renewal of an IP address in Powershell. First, go to Wireshark and type "dhcp" into the search bar - hit enter. This wil filter for dhcp traffic. In Powershell, type "ipconfig /renew" and press enter. VM1 will now broadcast over the network that it needs a new IP address. Azure's DHCP server inside the virtual network will then re-issue the IP address. You should then be able to observe some DHCP traffic inside Wireshark.
+Next, you are going to observe DHCP traffic. Remember that DHCP is used to automatically assign an IP address. You are going to force the renewal of an IP address in Powershell. First, go to Wireshark and type "dhcp" into the search bar - hit enter. This wil filter for dhcp traffic. In Powershell, type "ipconfig /renew" and press enter. VM1 will now broadcast over the network that it needs a new IP address. Azure's DHCP server inside the virtual network will then re-issue the IP address. You should then be able to observe some DHCP traffic inside Wireshark.
 </p>
 <br />
 
 <p>
   Step 36:
-<img src="https://i.imgur.com/gVh2m25.png"/>
+<img src="https://imgur.com/zHJWkhl.png"/>
 </p>
 <p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+Next, you are going to observe DNS traffic. In Wireshark, go ahead and filter for DNS by typing "dns" into the search bar - press enter. To observe some DNS traffic, you are going to type "nslookup www.google.com" - press enter. Now you can see the DNS traffic coming through in Wireshark.
 </p>
 <br />
 
 <p>
-  Step 35:
-<img src="https://i.imgur.com/gVh2m25.png"/>
+  Step 37:
+<img src="https://imgur.com/rrFochy.png"/>
 </p>
 <p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+Finally, you are going to observe RDP traffic. In Wireshark, filter for RDP by typing "rdp" into the search bar - press enter. You will immediately see RDP traffic coming through nonstop in Wireshark. This is due to the fact that we have a live remote session going.
 </p>
 <br />
-
-<p>
-  Step 35:
-<img src="https://i.imgur.com/gVh2m25.png"/>
-</p>
-<p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
-</p>
-<br />
-
-<p>
-  Step 36:
-<img src="https://i.imgur.com/6bbJACJ.png"/>
-</p>
-<p>
-After you click on "Topology", you will need to make sure you have the correct "Resource Group" and correct "Virtual Network" selected. Once you have those selected, Azure will now visually display a model of what your network topology looks like, which is an excellent feature that allows you to visualize everything that you just created. This also serves as a nice verification tool to ensure that your network topology is set up correctly.
-</p>
-<br />
-This concludes your tutorial on how to create virtual machines in Azure, as well as observe network topology. Well done and thank you for following along!
+This concludes your tutorial on how to observe various types of network traffic to and from Azure Virtual Machines with Wireshark, as well as experiment with Network Security Groups. Well done and thank you for following along!
