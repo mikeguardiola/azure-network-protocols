@@ -272,10 +272,10 @@ While VM1 is continuously pinging VM2, we are going to change the firewall on VM
 
 <p>
   Step 27:
-<img src="https://i.imgur.com/gVh2m25.png"/>
+<img src="https://imgur.com/lAW1Y9i.png"/>
 </p>
 <p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+Once you are in the VM2-nsg portal, click on "Inbound security rules".
 </p>
 <br />
 
