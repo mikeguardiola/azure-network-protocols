@@ -344,6 +344,33 @@ To end the remote connection, type "exit" and hit enter. This will take you back
 
 <p>
   Step 35:
+<img src="https://imgur.com/GB3oQTD.png"/>
+</p>
+<p>
+Next, we are going to observe DHCP traffic. Remember that DHCP is used to automatically assign an IP address. You are going to force the renewal of an IP address in Powershell. First, go to Wireshark and type "dhcp" into the search bar - hit enter. This wil filter for dhcp traffic. In Powershell, type "ipconfig /renew" and press enter. VM1 will now broadcast over the network that it needs a new IP address. Azure's DHCP server inside the virtual network will then re-issue the IP address. You should then be able to observe some DHCP traffic inside Wireshark.
+</p>
+<br />
+
+<p>
+  Step 36:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+</p>
+<br />
+
+<p>
+  Step 35:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+</p>
+<br />
+
+<p>
+  Step 35:
 <img src="https://i.imgur.com/gVh2m25.png"/>
 </p>
 <p>
