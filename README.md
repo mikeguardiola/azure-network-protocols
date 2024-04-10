@@ -257,7 +257,7 @@ Next, you are going to try pinging a public website and then observe the traffic
 <img src="https://imgur.com/YTCMudt.png"/>
 </p>
 <p>
-Next, we are going to initiate a perpetual ping from VM1 to VM2. In Powershell, type "ping 10.0.0.5 -t". This will cause VM1 to ping VM2 nonstop.
+Next, we are going to initiate a perpetual ping from VM1 to VM2. In Powershell, type "ping 10.0.0.5 -t" and hit enter. You can now observe that this will cause VM1 to ping VM2 nonstop.
 </p>
 <br />
 
