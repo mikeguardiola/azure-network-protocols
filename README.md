@@ -316,7 +316,34 @@ Go back to your VM1 Remote Desktop. You can observe that ICMP traffic has resume
 <br />
 
 <p>
-  Step 16:
+  Step 32:
+<img src="https://imgur.com/SXCzS5h.png"/>
+</p>
+<p>
+Now we are going to explore SSH Traffic on the network. Within Wireshark, type "ssh" into the search bar and hit enter. Also, click on the green fin to restart the capturing process. 
+</p>
+<br />
+
+<p>
+  Step 33:
+<img src="https://imgur.com/kfm8Xnt.png"/>
+</p>
+<p>
+In Powershell, we are going to establish a secure connection from VM1 to VM2. Type "ssh labuser@10.0.0.5" and hit enter. You will see that the connection is not able to be established at first. Powershell will prompt you with a yes/no question - type yes and press enter. Powershell should then prompt you to enter in the password for VM2. If it does not automatically prompt you, then go ahead and retype "ssh labuser@10.0.0.5" and hit enter. Now you should be prompted to enter the password. Note: when you are typing in the password, it won't actually show the text to indicate you are typing. That's normal. Just go ahead and type the full password anyway and hit enter. You are now securely connected to VM2 remotely.
+</p>
+<br />
+
+<p>
+  Step 34:
+<img src="https://imgur.com/ITomFvU.png"/>
+</p>
+<p>
+To end the remote connection, type "exit" and hit enter. This will take you back to VM1's command line.
+</p>
+<br />
+
+<p>
+  Step 35:
 <img src="https://i.imgur.com/gVh2m25.png"/>
 </p>
 <p>
@@ -325,34 +352,7 @@ You can install Wireshark with all the default settings, so just go ahead and cl
 <br />
 
 <p>
-  Step 16:
-<img src="https://i.imgur.com/gVh2m25.png"/>
-</p>
-<p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
-</p>
-<br />
-
-<p>
-  Step 16:
-<img src="https://i.imgur.com/gVh2m25.png"/>
-</p>
-<p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
-</p>
-<br />
-
-<p>
-  Step 16:
-<img src="https://i.imgur.com/gVh2m25.png"/>
-</p>
-<p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
-</p>
-<br />
-
-<p>
-  Step 17:
+  Step 36:
 <img src="https://i.imgur.com/6bbJACJ.png"/>
 </p>
 <p>
