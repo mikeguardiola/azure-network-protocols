@@ -263,10 +263,10 @@ Next, we are going to initiate a perpetual ping from VM1 to VM2. In Powershell, 
 
 <p>
   Step 26:
-<img src="https://i.imgur.com/gVh2m25.png"/>
+<img src="https://imgur.com/S3P2hsw.png"/>
 </p>
 <p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+While VM1 is continuously pinging VM2, we are going to change the firewall on VM2 to not allow ICMP traffic to come through. Essentially, we are going to block ICMP traffic on VM2's firewall. This will allow us to gain a better understanding of how firewalls work. To begin this process, head back over to the Azure Portal. In the search bar, type "Network Security Group" and click on it. Once there, click on "VM2-nsg".
 </p>
 <br />
 
