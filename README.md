@@ -254,24 +254,15 @@ Next, you are going to try pinging a public website and then observe the traffic
 
 <p>
   Step 25:
-<img src="https://i.imgur.com/gVh2m25.png"/>
+<img src="https://imgur.com/YTCMudt.png"/>
 </p>
 <p>
-Next, we are going to initiate a perpetual ping from VM1 to VM2. 12:47 timestamp
-</p>
-<br />
-
-<p>
-  Step 16:
-<img src="https://i.imgur.com/gVh2m25.png"/>
-</p>
-<p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+Next, we are going to initiate a perpetual ping from VM1 to VM2. In Powershell, type "ping 10.0.0.5 -t". This will cause VM1 to ping VM2 nonstop.
 </p>
 <br />
 
 <p>
-  Step 16:
+  Step 26:
 <img src="https://i.imgur.com/gVh2m25.png"/>
 </p>
 <p>
@@ -280,7 +271,7 @@ You can install Wireshark with all the default settings, so just go ahead and cl
 <br />
 
 <p>
-  Step 16:
+  Step 27:
 <img src="https://i.imgur.com/gVh2m25.png"/>
 </p>
 <p>
@@ -289,7 +280,7 @@ You can install Wireshark with all the default settings, so just go ahead and cl
 <br />
 
 <p>
-  Step 16:
+  Step 28:
 <img src="https://i.imgur.com/gVh2m25.png"/>
 </p>
 <p>
@@ -298,7 +289,16 @@ You can install Wireshark with all the default settings, so just go ahead and cl
 <br />
 
 <p>
-  Step 16:
+  Step 29:
+<img src="https://i.imgur.com/gVh2m25.png"/>
+</p>
+<p>
+You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+</p>
+<br />
+
+<p>
+  Step 30:
 <img src="https://i.imgur.com/gVh2m25.png"/>
 </p>
 <p>
