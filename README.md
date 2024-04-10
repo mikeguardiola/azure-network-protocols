@@ -281,37 +281,37 @@ Once you are in the VM2-nsg portal, click on "Inbound security rules".
 
 <p>
   Step 28:
-<img src="https://i.imgur.com/gVh2m25.png"/>
+<img src="https://imgur.com/sYG3qp4.png"/>
 </p>
 <p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+Once you are at this screen, click on "+ Add". Fill out the sections accordingly. When finished, click on the blue "Add" button at the bottom of the screen. Doing this creates a security rule within Azure that will effectively stop ICMP traffic from VM1 to VM2.
 </p>
 <br />
 
 <p>
   Step 29:
-<img src="https://i.imgur.com/gVh2m25.png"/>
+<img src="https://imgur.com/hvAhsdN.png"/>
 </p>
 <p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+Head back over to your VM1 Remote Desktop. You will now see in Powershell that the ping request has timed out as a result of blocing ICMP traffic. VM2's firewall is blocking the traffic.
 </p>
 <br />
 
 <p>
   Step 30:
-<img src="https://i.imgur.com/gVh2m25.png"/>
+<img src="https://imgur.com/trgjBhy.png"/>
 </p>
 <p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+Go back to VM2-nsg Inbound Security Rules in Azure. Click on "DENY_ICMP_PING_FROM_ANYWHERE" to edit the rule. Under "Action", change from Deny to Allow. Click on the blue "Save" button at the bottom of the screen.
 </p>
 <br />
 
 <p>
-  Step 16:
-<img src="https://i.imgur.com/gVh2m25.png"/>
+  Step 31:
+<img src="https://imgur.com/TA8dqFS.png"/>
 </p>
 <p>
-You can install Wireshark with all the default settings, so just go ahead and click through the installation process. Once you get to the end, click on the "Finish" button.
+Go back to your VM1 Remote Desktop. You can observe that ICMP traffic has resumed.
 </p>
 <br />
 
